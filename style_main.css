@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+*{
+	font-family: 'Teko', sans-serif;
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.a {font-size:28px ;
+	margin-top: 10px;
+
+}
+
+
+.header {
+	top: 0;
+	left: 0;
+	width: 100%;
+	position: fixed;
+	background: black;
+	align-items : center;
+	justify-content: space-between;
+	display: flex;
+	padding: 0px 50px;
+	z-index: 100;
+}
+body{
+	
+	background: url("images/back1.jpg");
+	background-size : cover;
+	background-attachment: fixed;
+	background-position:0px 80px;
+}
+.text {
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0, 0.8); 
+	color: white;
+	font-weight: bold;
+	border: 3px solid #6901DC;
+	position: absolute;
+	top: 17%;
+	left: 38px;
+	z-index: 2;
+	width: 95%;
+	padding: 40px; 
+	
+}
+
+.logo{
+	font-size: 60px;
+	color: white;
+	font-weight: 700;
+	margin-right: 30%;
+	text-decoration: none;
+}
+.svg_logo{
+	fill: white;
+	stroke: none;
+}
+.svg_logo:hover{
+	fill : #6901DC;
+}
+.navigation_bar a {
+	position: relative;
+	font-size: 25px;
+	color: white;
+	font-weight: 500;
+	margin-left: 20px;
+	text-decoration: none;	
+	padding: 7px 13px;
+	border-radius: 3px;
+	
+}
+.navigation_bar a:hover {
+	background: #6901DC;
+	transition: .3s;
+	
+}
+#text_box_text{
+	font-size: 50px;
+}
+.paragraph_text{
+	font-size:23px;
+	font-weight:100;
+	position: relative;
+	left: 10px;
+}
+
+footer{
+    position: absolute;
+	top:220%;
+    background: #111;
+    height: 180px;
+    width: 100vw;
+    font-family: "Open Sans";
+    color: #fff;
+}
+.footer_cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.social_acc{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.social_acc li{
+    margin: 10px 10px;
+}
+.social_acc a{
+    text-decoration: none;
+    color: #fff;
+}
+.social_acc a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.social_acc a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom a{
+	color: white;
+	text-decoration: none;
+}
+.footer-bottom a:hover{
+	color: #6901DC;
+}
+.text_1 {
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0, 0.8); 
+	color: white;
+	font-weight: bold;
+	border: 3px solid #6901DC;
+	position: absolute;
+	top: 126%;
+	left: 38px;
+	z-index: 2;
+	width: 95%;
+	padding: 20px; 
+}
+.image_box {
+	padding: 20px;
+	position: relative;
+	width: 50%;
+	max-width: 350px;
+}
+.image_box:hover{
+	transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+.image {
+    display: block;
+    width: 100%;
+    height: 450px;
+}
+.row{
+	display: flex;
+	justify-content: center;
+}

@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+
+    <title> Feedback Form</title>
+
+    <link rel ="icon" href =" linkin-park-seeklogo.com.svg     "   >
+    <link rel ="stylesheet" href="commentform.css">
+
+    <link rel="stylesheet" href="#">
+
+</head>
+
+<body>
+
+    <header class = "header">
+        <svg xmlns="http://www.w3.org/2000/svg"
+        width="70" height="70"
+        viewBox="0 0 300.000000 300.000000"
+        preserveAspectRatio="xMidYMid meet">
+			<g class="svg_logo" transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)">
+				<path d="M1360 2483 c-85 -164 -196 -376 -246 -473 -51 -96 -212 -404 -358
+				-685 -146 -280 -266 -510 -266 -512 0 -2 117 -3 260 -3 l260 0 -150 -300 c-82
+				-165 -150 -302 -150 -305 0 -3 54 -5 120 -5 l120 0 152 305 153 305 612 0
+				c337 0 613 3 613 6 0 9 -725 1439 -736 1453 -2 2 -144 -279 -316 -623 l-313
+				-626 -143 0 c-79 0 -142 3 -140 8 8 18 100 195 368 707 159 303 319 610 358
+				683 l69 133 -51 115 c-28 62 -53 114 -56 114 -3 0 -75 -134 -160 -297z m585
+				-1073 c107 -214 195 -393 195 -396 0 -7 -771 4 -778 10 -4 5 375 776 382 776
+				3 0 94 -175 201 -390z"/>
+			</g>
+		</svg>
+	
+	<p class = "logo">Linkin park</p>
+		
+		<nav class = "navigation_bar">
+			<a href = "mainpage.html">Home</a>
+			<a href = "shop.html">Shop</a>
+			<a href = "quiz.html">Quiz</a>
+			<a href = "site_map.html">Site map</a>
+			<a href = "gallery.html">Gallery</a>
+			<a href = "commentform.html">Feedback</a>
+			<a href = "student.html">About us</a>
+		</nav>
+	</header>
+    <div class="edit-1" id="backToTop">
+        <nav class="topbar"></nav>
+        
+    </div>
+
+
+
+ <div id="reply">
+
+    <form name="comment"  action="mailto:pramuditha.20221528@iit.ac.lk" method="post" enctype="text/plain" onsubmit="return Validation()">
+
+  <div class="per-info-1">
+
+    
+
+     <div class="enter-info-1">
+        <label style="float: left;padding-right: 60px;" for="First_name">1. First name :</label>
+        <input style="color:#210329 ;" type="text" id="First_name" name="First name"  required oninput="changeTextcolor(this)">
+        <br>
+        <div id ="firstnameError" class="Warning"></div>
+        <br>
+        <br>
+        <label style="float: left;padding-right: 62px;" for="Last_name">2. Last name :</label>
+        <input style="color:#210329;" type="text" id="Last_name" name="Last name" required class="compulsory" oninput="changeTextcolor(this)" >
+        <br>
+        <div id="lastnameError" class="Warnning"></div>
+     </div>
+  </div>
+
+  <div class="Comment-box-1">
+
+    <div class="Comment-box-1">
+        <div class="questions">
+            <p>3. How satisfied were you with our website today ? choose from 0 to 10, where 0 is extremely dissatisfied and 10 is extremely satisfied</p>
+        </div>
+
+        <div class="radio-row">
+            <label class="radio-button">
+            <input type="radio" name="Question 1" id="option1" value="1">
+            <span class="radio-checkmark"></span>
+            <span class="radio-label"> 1 </span>
+            </label>
+        </div>    
+        
+
+        
+        <div class="radio-row">
+            <label class="radio-button">
+            <input type="radio" name="Question 1" id="option2" value=" 2">
+            <span class="radio-checkmark"></span>
+            <span class="radio-label">2</span>
+            </label>         
+        </div>
+      
+        <div class="radio-row">
+            <label class="radio-button">
+            <input type="radio" name="Question 1" id="option3" value=" 3">
+            <span class="radio-checkmark"></span>
+            <span class="radio-label">3</span>
+            </label> 
+        </div>
+
+        <div class="radio-row">
+            <label class="radio-button">
+            <input type="radio" name="Question 1" id="option4" value=" 4">
+            <span class="radio-checkmark"></span>
+            <span class="radio-label">4</span>
+            </label>
+        </div>
+
+        <div class="radio-row">
+            <label class="radio-button">
+            <input type="radio" name="Question 1" id="option5" value=" 5">
+            <span class="radio-checkmark"></span>
+            <span class="radio-label">5</span>
+            </label>           
+        </div>
+
+        <div class="radio-row">
+            <label class="radio-button">
+            <input type="radio" name="Question 1" id="option6" value=" 6">
+            <span class="radio-checkmark"></span>
+            <span class="radio-label">6</span>
+            </label>
+        </div>
+
+        <div class="radio-row">
+            <label class="radio-button">
+            <input type="radio" name="Question 1" id="option7" value=" 7">
+            <span class="radio-checkmark"></span>
+            <span class="radio-label">7</span>
+            </label>
+        </div>
+
+        <div class="radio-row">
+            <label class="radio-button">
+            <input type="radio" name="Question 1" id="option8" value=" 8">
+            <span class="radio-checkmark"></span>
+            <span class="radio-label">8</span>
+            </label>
+        </div>
+
+        <div class="radio-row">
+            <label class="radio-button">
+            <input type="radio" name="Question 1" id="option9" value=" 9">
+            <span class="radio-checkmark"></span>
+            <span class="radio-label">9</span>
+            </label> 
+        </div>
+
+        <div class="radio-row">
+            <label class="radio-button">
+            <input type="radio" name="Question 1" id="option10" value=" 10">
+            <span class="radio-checkmark"></span>
+            <span class="radio-label">10</span>
+            </label>
+        </div>
+        <br>
+        <div id="ratingError1" class="Warning"></div>
+    </div>
+
+    <div class="comment-box-2">
+        <div class="questions">
+            <p>4.Please could you tell us your reasons for giving this rating ?</p>
+        </div>
+
+        <div class="text-area">
+            <textarea name="replyQuestion1" rows="10" cols="70" placeholder="required"></textarea>
+            <br>
+            <div id="TextAreaError1" class="Warning"></div>
+        </div>
+    </div>
+
+    <div class="comment-box-3">
+
+        <div class="questions">
+            <p> 5.Who is your most favourite band member in the linkin park ?</p>
+        </div>
+
+        <div class="Select-option">
+            <select name="Who is your most favourite band member in the linkin park  " id="media_platform">
+                <option value=" None">--None-- </option>
+                <option value=" Mike Shinoda" >Mike Shinoda</option>
+                <option value=" Brad Delson">Brad Delson</option>
+                <option value=" Dave Farell">Dave Farell</option>
+                <option value=" Rob Bourdon">Rob Bourdon</option>
+                <option value=" Joe Hahn">Joe Hahn</option>
+            </select>
+        </div>
+    </div>
+
+<div class="comment-box-1">
+
+    <div class="questions">
+        <p>6.How satisfied were you with our website store today ? choose from 0 to 10,where 0 is extremely dissatisfied and 10 is extremely satisfied  </p>
+    </div>
+    
+    <div class="radio-row">
+        <label class="radio-button">
+            <input type="radio" name="Question 2" id="option1-shop" value="1">
+            <span class="radio-checkmark"></span>
+            <span class="radio-label">1</span>
+        </label>
+    </div>
+
+    <div class="radio-row">
+        <label class="radio-button">
+        <input type="radio" name="Question 2" id="option2-shop" value=" 2">
+        <span class="radio-checkmark"></span>
+        <span class="radio-label">2</span>
+        </label>
+    </div>
+
+    <div class="radio-row">
+        <label class="radio-button">
+        <input type="radio" name="Question 2" id="option3-shop" value=" 3">
+        <span class="radio-checkmark"></span>
+        <span class="radio-label">3</span>
+        </label>
+    </div>
+
+    <div class="radio-row">
+        <label class="radio-button">
+        <input type="radio" name="Question 2" id="option4-shop" value=" 4">
+        <span class="radio-checkmark"></span>
+        <span class="radio-label">4</span>
+        </label>
+    </div>
+
+    <div class="radio-row">
+        <label class="radio-button">
+        <input type="radio" name="Question 2" id="option5-shop" value=" 5">
+        <span class="radio-checkmark"></span>
+        <span class="radio-label">5</span>
+        </label>
+    </div>
+
+    <div class="radio-row">
+        <label class="radio-button">
+        <input type="radio" name="Question 2" id="option6-shop" value=" 6">
+        <span class="radio-checkmark"></span>
+        <span class="radio-label">6</span>
+        </label>     
+    </div>
+
+    <div class="radio-row">
+        <label class="radio-button">
+        <input type="radio" name="Question 2" id="option7-shop" value=" 7">
+        <span class="radio-checkmark"></span>
+        <span class="radio-label">7</span>
+        </label>
+    </div>
+
+    <div class="radio-row">
+        <label class="radio-button">
+        <input type="radio" name="Question 2" id="option8-shop" value=" 8">   
+        <span class="radio-checkmark"></span>
+        <span class="radio-label">8</span>
+        </label>
+    </div>
+
+    <div class="radio-row">
+        <label class="radio-button">
+        <input type="radio" name="Question 2" id="option9-shop" value=" 9">
+        <span class="radio-checkmark"></span>
+        <span class="radio-label">9</span>
+        </label>
+    </div>
+
+    <div class="radio-row">
+        <label class="radio-button">
+        <input type="radio" name="Question 2" id="option10-shop" value=" 10">
+        <span class="radio-checkmark"></span>
+        <span class="radio-label">10</span>
+        </label>
+    </div>
+    <br>
+    <div id="ratingError2" class="Warning"></div>
+
+</div>
+
+
+<div class="Comment-box-2">
+  <div class="questions">
+  <p>7. Please could you tell us your reasons for giving this rating ?</p>
+  </div>
+
+  <div class="text-area">
+  <textarea name="replyQuestion2" rows="10" cols="70" placeholder="required"></textarea>
+  <br>
+  <div id="TextAreaError2" class="Warning"></div>
+  </div>
+
+</div>
+
+
+<div class="info-send">
+
+      <div class="respond">
+      <input type="submit" value="Submit"> 
+      </div>
+    
+      <div class="respond">
+      <input type="reset" value="Reset" >
+      </div>
+  </div>
+</div>
+
+<div id="respond" style=" color: rgb(255, 255, 255);font: 1em sans-serif; font-size:200%; text-align: center; float: left;margin-left: 15%; margin-top: 10%;">
+</div>
+
+
+<a href="#backToTop" style="float: right;text-decoration:none; margin-top: 16% ;" class="backToTop">Back To Top</a><br>
+
+    <div class="footer">  
+        <p class="editor"><a href="editor2.html"> Page Editor </a></p>               
+        <hr>
+        <p class="rights">All Rights Reserved</p>
+    </div>
+  </form>
+</div>
+  
+<script>
+    function changeTextcolor(input){
+        input.style.color="white";
+    }
+   
+    function Validation(){
+    
+    var firstname=document.forms["Comment"]["First name"].value;
+    
+    var lastname=document.forms["Comment"]["Last name"].value;
+    
+    var ratingButton1=document.forms["Comment"]["Question 1"].value;
+    
+    var MassageArea1=document.forms["Comment"]["replyQuestion1"].value;
+    
+    var ratingButton2=document.forms["Comment"]["Question 2"].value;
+    
+    var MassageArea2=document.forms["Comment"]["replyQuestion2"].value;
+    
+    
+    if(firstname==""){
+      document.getElementById("firstnameError").textContent="please enter your first name.";
+      return false;
+    }
+    
+    else{
+      document.getElementById("firstnameError").textContent="";
+    }
+    
+    if(lastname ==""){
+      document.getElementById("lastnameError").textContent="please enter your last name.";
+      return false;
+    }
+    
+    else{
+      document.getElementById("lastnameError").textContent="";
+    }
+    
+    if(ratingButton1==""){
+      document.getElementById("ratingError1").textContent="please rate this question.";
+      return false;
+    }
+    
+    else{
+      document.getElementById("ratingError1").textContent="";
+    }
+    
+    if(MassageArea1==""){
+      document.getElementById("TextAreaError1").textContent="please tell resaon about this rating.";
+      return false;
+    }
+    
+    else{
+      document.getElementById("TextAreaError1").textContent="";
+    }
+    
+    
+    if(ratingButton2==""){
+      document.getElementById("ratingError2").textContent="please rate this question.";
+      return false;
+    }
+    
+    else{
+      document.getElementById("ratingError2").textContent="";
+    }
+    
+    if(MassageArea2==""){
+      document.getElementById("TextAreaError2").textContent="please tell resaon about this rating.";
+      return false;
+    }
+    
+    else{
+      document.getElementById("TextAreaError2").textContent="";
+    }
+    
+    
+    
+    document.getElementById("reply").style.display='none';
+    
+    document.getElementById("respond").textContent="Thank you for taking the time to give us your feedback on your experience today";
+    
+    
+    }
+    
+    </script>
+    
+    </body>
+    </html>
+        

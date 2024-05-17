@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+*{
+	font-family: 'Teko', sans-serif;
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.header1 {
+	top: 0;
+	left: 0;
+	width: 100%;
+	position: fixed;
+	background: black;
+	align-items : center;
+	justify-content: space-between;
+	display: flex;
+	padding: 0px 50px;
+	z-index: 100;
+}
+
+
+
+.logo{
+	font-size: 60px;
+	color: white;
+	font-weight: 700;
+	margin-right: 30%;
+	text-decoration: none;
+}
+.navigation_bar a {
+	position: relative;
+	font-size: 25px;
+	color: white;
+	font-weight: 500;
+	margin-left: 20px;
+	text-decoration: none;	
+	padding: 7px 13px;
+	border-radius: 3px;
+	
+}
+.navigation_bar a:hover {
+	background: #6901DC;
+	transition: .3s;
+	
+}
+#text_box_text{
+	font-size: 50px;
+}
+#paragraph_text{
+	font-size:20px;
+	font-weight:100;
+	position: relative;
+	left: 10px;
+}
+
+.social_acc{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.social_acc li{
+    margin: 10px 10px;
+}
+.social_acc a{
+    text-decoration: none;
+    color: #fff;
+}
+.social_acc a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.social_acc a:hover i{
+    color: aqua;
+}
+
+
+.social_acc a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom a{
+	color: white;
+	text-decoration: none;
+}
+.footer-bottom a:hover{
+	color: #6901DC;
+}
+
+
+.row{
+	display: flex;
+	justify-content: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+    height: 90vh;
+    width: 99vw;
+    background-image: url('images/chestor4.jpg');
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgb(196, 197, 208);
+}
+.svg_logo{
+	fill: white;
+	stroke: none;
+}
+.svg_logo:hover{
+	fill : #6901DC;
+}
+
+.header{
+    position:absolute;
+    top:20vh;
+    left:35vw;
+    color: rgb(47, 246, 20);
+    font-size: 70px;
+    font-family: cursive;
+}
+
+.main-container{
+    display: flex;
+}
+
+.container{
+   
+    padding-left: 5vw;
+    width: 28vw;
+    height: 130vh;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.container p{
+    margin-top: 20px;
+}
+
+.sub-container{
+    position: absolute;
+    left: 33vw;
+    background-color: rgb(201, 196, 196);
+    width: 66vw;
+    height: 155vh;
+    text-align: center;
+    
+}
+
+.sub-container p{
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.task{
+    background-color: rgb(8, 14, 83);
+    margin-top: 10px;
+    padding: 6px 0px;
+    color: white;
+}
+
+.task1{
+  color: rgb(39, 126, 213);
+}
+
+.sub-container a{
+    
+        color:rgb(0, 82, 190);
+      
+}
